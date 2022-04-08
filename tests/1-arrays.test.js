@@ -1,4 +1,4 @@
-const removeDuplicates = require('./1-arrays');
+const removeDuplicates = require('../1-arrays');
 
 test('removes 1 duplicate from [1, 1, 2] array', () => {
   expect(removeDuplicates([1, 1, 2])).toEqual([1, 2]);
