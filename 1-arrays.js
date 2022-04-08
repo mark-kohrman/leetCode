@@ -28,7 +28,8 @@ Do not allocate extra space for another array. You must do this by modifying the
   }
   nums.length = i + 1;
   let k = nums.length;
-  console.log(k);
+  return nums;
 };
+removeDuplicates([1,1,2])
+module.exports = removeDuplicates;
 
-removeDuplicates([-99, -99, -99, -99, -99,  -2, 1, 2, 2, 3, 4, 4, 4, 4]);
