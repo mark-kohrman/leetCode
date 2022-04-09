@@ -28,7 +28,7 @@ Do not allocate extra space for another array. You must do this by modifying the
   }
   nums.length = i + 1;
   let k = nums.length;
-  return nums;
+  return k;
 };
 removeDuplicates([1,1,2])
 module.exports = removeDuplicates;
